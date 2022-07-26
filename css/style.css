@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+:root {
+    --titleColor: white;
+    --subtitleColor: ;
+    --bgColor: rgb(0, 102, 255);
+    --shapesColor:  rgb(43, 43, 251);
+    --shapeIconColor: rgb(2, 214, 112);
+}
+
+body {
+    background: var(--bgColor);
+}
+
+#rightShape {
+    clip-path: polygon(69% 0, 100% 0, 100% 35%, 100% 70%, 100% 100%, 65% 100%, 54% 80%, 55% 59%, 52% 35%, 59% 16%);
+    background: var(--shapesColor);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    margin: 0 0 0 50%;
+}
+
+#leftShape {
+    clip-path: polygon(69% 0, 100% 0, 100% 35%, 100% 70%, 100% 100%, 65% 100%, 54% 80%, 55% 59%, 52% 35%, 59% 16%);
+    background: var(--shapesColor);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(180deg);
+}
+
+#starShape {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    position: absolute;
+    z-index: 4;
+    width: 5%;
+    height: 5%;
+    margin: 10% 0 0 10%;
+    display: block;
+    background: var(--shapeIconColor);
+}
+
+.navbar {
+    width: 100%;
+    height: 10%;
+}
+
+.titleBox {
+    margin: auto;
+    display: flex;
+    width: 30%;
+    height: 10%;
+}
+
+.titleParagraph {
+    color: var(--titleColor);
+    text-align: center;
+    font-size: 2em;
+    font-family: cooper black;
+}
+
+.imgBoxRight {
+    width: 30%;
+    height: 30%;
+    margin: 70% 0 0 65%;
+    position: absolute;
+    z-index: 3;
+}
+
+.imageLogoRight {
+    width: 90%;
+    height: 100%;
+}
+
+.imgBoxLeft {
+    width: 30%;
+    height: 30%;
+    margin: 75% 0 0 70%;
+    position: absolute;
+    z-index: 3;
+}
+
+.imageLogoLeft {
+    width: 90%;
+    height: 100%;
+}
