@@ -1,0 +1,78 @@
+:root {
+    --shapeIconColor1: rgb(2, 214, 112);
+    --shapeIconColor2: rgb(38, 193, 38);
+    --shapeIconColor3: rgb(11, 179, 114);
+
+    --shapeBgColor1: rgb(17, 17, 225);
+    --shapeBgColor2: rgb(52, 52, 197);
+
+}
+
+#firstStarShape {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    position: absolute;
+    z-index: 4;
+    width: 5%;
+    height: 5%;
+    margin: 60% 0 0 70%;
+    display: block;
+    background: var(--shapeIconColor1);
+}
+
+#secondStarShape {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    position: absolute;
+    z-index: 4;
+    width: 5%;
+    height: 5%;
+    margin: 70% 0 0 82%;
+    display: block;
+    background: var(--shapeIconColor2);
+    transform: rotate(160deg);
+}
+
+#thirdStarShape {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    position: absolute;
+    z-index: 4;
+    width: 5%;
+    height: 5%;
+    margin: 63% 0 0 90%;
+    display: block;
+    background: var(--shapeIconColor3);
+    transform: rotate(84deg);
+}
+
+#firstCircleShape {
+    clip-path: circle(50% at 50% 50%);
+    position: absolute;
+    z-index: 4;
+    width: 30%;
+    height: 30%;
+    margin: -5% 0 0 80%;
+    display: block;
+    background: var(--shapeBgColor1);
+}
+
+#secondCircleShape {
+    clip-path: circle(50% at 50% 50%);
+    position: absolute;
+    z-index: 4;
+    width: 30%;
+    height: 30%;
+    margin: 30% 0 0 40%;
+    display: block;
+    background: var(--shapeBgColor2);
+}
+
+#triangleIcon {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    z-index: 4;
+    width: 5%;
+    height: 5%;
+    margin: 40% 0 0 90%;
+    display: block;
+    background: var(--shapeIconColor3);
+    transform: rotate(160deg);
+}

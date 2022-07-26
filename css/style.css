@@ -10,7 +10,6 @@
     --subtitleColor: ;
     --bgColor: rgb(0, 102, 255);
     --shapesColor:  rgb(43, 43, 251);
-    --shapeIconColor: rgb(2, 214, 112);
 }
 
 body {
@@ -35,17 +34,6 @@ body {
     position: absolute;
     z-index: 1;
     transform: rotate(180deg);
-}
-
-#starShape {
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-    position: absolute;
-    z-index: 4;
-    width: 5%;
-    height: 5%;
-    margin: 10% 0 0 10%;
-    display: block;
-    background: var(--shapeIconColor);
 }
 
 .navbar {
